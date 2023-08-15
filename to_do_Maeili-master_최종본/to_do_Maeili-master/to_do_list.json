@@ -1,0 +1,19 @@
+{
+    "to_do": [
+        {
+            "id": 0,
+            "title": "강아지 산책시키기",
+            "completed": false,
+            "routine" : "",
+            "type": ""
+        },
+        {
+            "id": 2,
+            "title": "두번째 투두",
+            "completed": false,
+            "routine" : "",
+            "type": ""
+        }
+    ]
+
+}
