@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDBEDB328FE6F6600B52882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEDB228FE6F6600B52882 /* AppDelegate.swift */; };
+		EFDBEDB528FE6F6600B52882 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEDB428FE6F6600B52882 /* SceneDelegate.swift */; };
+		EFDBEDB728FE6F6600B52882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEDB628FE6F6600B52882 /* ViewController.swift */; };
+		EFDBEDBA28FE6F6600B52882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEDB828FE6F6600B52882 /* Main.storyboard */; };
+		EFDBEDBC28FE6F6800B52882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEDBB28FE6F6800B52882 /* Assets.xcassets */; };
+		EFDBEDBF28FE6F6800B52882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEDBD28FE6F6800B52882 /* LaunchScreen.storyboard */; };
+		EFDBEDCA28FE6F6800B52882 /* FrogCatcherProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEDC928FE6F6800B52882 /* FrogCatcherProTests.swift */; };
+		EFDBEDD428FE6F6800B52882 /* FrogCatcherProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEDD328FE6F6800B52882 /* FrogCatcherProUITests.swift */; };
+		EFDBEDD628FE6F6800B52882 /* FrogCatcherProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEDD528FE6F6800B52882 /* FrogCatcherProUITestsLaunchTests.swift */; };
+		EFDBEDE528FE703600B52882 /* Frog.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEDE228FE703600B52882 /* Frog.png */; };
+		EFDBEDE628FE703600B52882 /* catch.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEDE328FE703600B52882 /* catch.png */; };
+		EFDBEDE728FE703600B52882 /* Hole.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEDE428FE703600B52882 /* Hole.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDBEDC628FE6F6800B52882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDBEDA728FE6F6600B52882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDBEDAE28FE6F6600B52882;
+			remoteInfo = FrogCatcherPro;
+		};
+		EFDBEDD028FE6F6800B52882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDBEDA728FE6F6600B52882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDBEDAE28FE6F6600B52882;
+			remoteInfo = FrogCatcherPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDBEDAF28FE6F6600B52882 /* FrogCatcherPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrogCatcherPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDBEDB228FE6F6600B52882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFDBEDB428FE6F6600B52882 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFDBEDB628FE6F6600B52882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDBEDB928FE6F6600B52882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDBEDBB28FE6F6800B52882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDBEDBE28FE6F6800B52882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDBEDC028FE6F6800B52882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDBEDC528FE6F6800B52882 /* FrogCatcherProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrogCatcherProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDBEDC928FE6F6800B52882 /* FrogCatcherProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogCatcherProTests.swift; sourceTree = "<group>"; };
+		EFDBEDCF28FE6F6800B52882 /* FrogCatcherProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrogCatcherProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDBEDD328FE6F6800B52882 /* FrogCatcherProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogCatcherProUITests.swift; sourceTree = "<group>"; };
+		EFDBEDD528FE6F6800B52882 /* FrogCatcherProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogCatcherProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFDBEDE228FE703600B52882 /* Frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frog.png; sourceTree = "<group>"; };
+		EFDBEDE328FE703600B52882 /* catch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catch.png; sourceTree = "<group>"; };
+		EFDBEDE428FE703600B52882 /* Hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hole.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDBEDAC28FE6F6600B52882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDBEDC228FE6F6800B52882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDBEDCC28FE6F6800B52882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDBEDA628FE6F6600B52882 = {
+			isa = PBXGroup;
+			children = (
+				EFDBEDB128FE6F6600B52882 /* FrogCatcherPro */,
+				EFDBEDC828FE6F6800B52882 /* FrogCatcherProTests */,
+				EFDBEDD228FE6F6800B52882 /* FrogCatcherProUITests */,
+				EFDBEDB028FE6F6600B52882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDBEDB028FE6F6600B52882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBEDAF28FE6F6600B52882 /* FrogCatcherPro.app */,
+				EFDBEDC528FE6F6800B52882 /* FrogCatcherProTests.xctest */,
+				EFDBEDCF28FE6F6800B52882 /* FrogCatcherProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDBEDB128FE6F6600B52882 /* FrogCatcherPro */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBEDB228FE6F6600B52882 /* AppDelegate.swift */,
+				EFDBEDB428FE6F6600B52882 /* SceneDelegate.swift */,
+				EFDBEDE328FE703600B52882 /* catch.png */,
+				EFDBEDE228FE703600B52882 /* Frog.png */,
+				EFDBEDE428FE703600B52882 /* Hole.png */,
+				EFDBEDB628FE6F6600B52882 /* ViewController.swift */,
+				EFDBEDB828FE6F6600B52882 /* Main.storyboard */,
+				EFDBEDBB28FE6F6800B52882 /* Assets.xcassets */,
+				EFDBEDBD28FE6F6800B52882 /* LaunchScreen.storyboard */,
+				EFDBEDC028FE6F6800B52882 /* Info.plist */,
+			);
+			path = FrogCatcherPro;
+			sourceTree = "<group>";
+		};
+		EFDBEDC828FE6F6800B52882 /* FrogCatcherProTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBEDC928FE6F6800B52882 /* FrogCatcherProTests.swift */,
+			);
+			path = FrogCatcherProTests;
+			sourceTree = "<group>";
+		};
+		EFDBEDD228FE6F6800B52882 /* FrogCatcherProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBEDD328FE6F6800B52882 /* FrogCatcherProUITests.swift */,
+				EFDBEDD528FE6F6800B52882 /* FrogCatcherProUITestsLaunchTests.swift */,
+			);
+			path = FrogCatcherProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDBEDAE28FE6F6600B52882 /* FrogCatcherPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDBEDD928FE6F6800B52882 /* Build configuration list for PBXNativeTarget "FrogCatcherPro" */;
+			buildPhases = (
+				EFDBEDAB28FE6F6600B52882 /* Sources */,
+				EFDBEDAC28FE6F6600B52882 /* Frameworks */,
+				EFDBEDAD28FE6F6600B52882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrogCatcherPro;
+			productName = FrogCatcherPro;
+			productReference = EFDBEDAF28FE6F6600B52882 /* FrogCatcherPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDBEDC428FE6F6800B52882 /* FrogCatcherProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDBEDDC28FE6F6800B52882 /* Build configuration list for PBXNativeTarget "FrogCatcherProTests" */;
+			buildPhases = (
+				EFDBEDC128FE6F6800B52882 /* Sources */,
+				EFDBEDC228FE6F6800B52882 /* Frameworks */,
+				EFDBEDC328FE6F6800B52882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDBEDC728FE6F6800B52882 /* PBXTargetDependency */,
+			);
+			name = FrogCatcherProTests;
+			productName = FrogCatcherProTests;
+			productReference = EFDBEDC528FE6F6800B52882 /* FrogCatcherProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDBEDCE28FE6F6800B52882 /* FrogCatcherProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDBEDDF28FE6F6800B52882 /* Build configuration list for PBXNativeTarget "FrogCatcherProUITests" */;
+			buildPhases = (
+				EFDBEDCB28FE6F6800B52882 /* Sources */,
+				EFDBEDCC28FE6F6800B52882 /* Frameworks */,
+				EFDBEDCD28FE6F6800B52882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDBEDD128FE6F6800B52882 /* PBXTargetDependency */,
+			);
+			name = FrogCatcherProUITests;
+			productName = FrogCatcherProUITests;
+			productReference = EFDBEDCF28FE6F6800B52882 /* FrogCatcherProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDBEDA728FE6F6600B52882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EFDBEDAE28FE6F6600B52882 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					EFDBEDC428FE6F6800B52882 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EFDBEDAE28FE6F6600B52882;
+					};
+					EFDBEDCE28FE6F6800B52882 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EFDBEDAE28FE6F6600B52882;
+					};
+				};
+			};
+			buildConfigurationList = EFDBEDAA28FE6F6600B52882 /* Build configuration list for PBXProject "FrogCatcherPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDBEDA628FE6F6600B52882;
+			productRefGroup = EFDBEDB028FE6F6600B52882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDBEDAE28FE6F6600B52882 /* FrogCatcherPro */,
+				EFDBEDC428FE6F6800B52882 /* FrogCatcherProTests */,
+				EFDBEDCE28FE6F6800B52882 /* FrogCatcherProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDBEDAD28FE6F6600B52882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBEDBF28FE6F6800B52882 /* LaunchScreen.storyboard in Resources */,
+				EFDBEDE528FE703600B52882 /* Frog.png in Resources */,
+				EFDBEDBC28FE6F6800B52882 /* Assets.xcassets in Resources */,
+				EFDBEDE728FE703600B52882 /* Hole.png in Resources */,
+				EFDBEDE628FE703600B52882 /* catch.png in Resources */,
+				EFDBEDBA28FE6F6600B52882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDBEDC328FE6F6800B52882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDBEDCD28FE6F6800B52882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDBEDAB28FE6F6600B52882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBEDB728FE6F6600B52882 /* ViewController.swift in Sources */,
+				EFDBEDB328FE6F6600B52882 /* AppDelegate.swift in Sources */,
+				EFDBEDB528FE6F6600B52882 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDBEDC128FE6F6800B52882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBEDCA28FE6F6800B52882 /* FrogCatcherProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDBEDCB28FE6F6800B52882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBEDD428FE6F6800B52882 /* FrogCatcherProUITests.swift in Sources */,
+				EFDBEDD628FE6F6800B52882 /* FrogCatcherProUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDBEDC728FE6F6800B52882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDBEDAE28FE6F6600B52882 /* FrogCatcherPro */;
+			targetProxy = EFDBEDC628FE6F6800B52882 /* PBXContainerItemProxy */;
+		};
+		EFDBEDD128FE6F6800B52882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDBEDAE28FE6F6600B52882 /* FrogCatcherPro */;
+			targetProxy = EFDBEDD028FE6F6800B52882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFDBEDB828FE6F6600B52882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDBEDB928FE6F6600B52882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDBEDBD28FE6F6800B52882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDBEDBE28FE6F6800B52882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDBEDD728FE6F6800B52882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDBEDD828FE6F6800B52882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDBEDDA28FE6F6800B52882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FrogCatcherPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BU.FrogCatcherPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDBEDDB28FE6F6800B52882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FrogCatcherPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BU.FrogCatcherPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFDBEDDD28FE6F6800B52882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BU.FrogCatcherProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrogCatcherPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FrogCatcherPro";
+			};
+			name = Debug;
+		};
+		EFDBEDDE28FE6F6800B52882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BU.FrogCatcherProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrogCatcherPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FrogCatcherPro";
+			};
+			name = Release;
+		};
+		EFDBEDE028FE6F6800B52882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BU.FrogCatcherProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrogCatcherPro;
+			};
+			name = Debug;
+		};
+		EFDBEDE128FE6F6800B52882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BU.FrogCatcherProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrogCatcherPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDBEDAA28FE6F6600B52882 /* Build configuration list for PBXProject "FrogCatcherPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBEDD728FE6F6800B52882 /* Debug */,
+				EFDBEDD828FE6F6800B52882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDBEDD928FE6F6800B52882 /* Build configuration list for PBXNativeTarget "FrogCatcherPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBEDDA28FE6F6800B52882 /* Debug */,
+				EFDBEDDB28FE6F6800B52882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDBEDDC28FE6F6800B52882 /* Build configuration list for PBXNativeTarget "FrogCatcherProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBEDDD28FE6F6800B52882 /* Debug */,
+				EFDBEDDE28FE6F6800B52882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDBEDDF28FE6F6800B52882 /* Build configuration list for PBXNativeTarget "FrogCatcherProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBEDE028FE6F6800B52882 /* Debug */,
+				EFDBEDE128FE6F6800B52882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDBEDA728FE6F6600B52882 /* Project object */;
+}
