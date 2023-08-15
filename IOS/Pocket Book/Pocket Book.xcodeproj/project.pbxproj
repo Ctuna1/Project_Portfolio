@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262B0F8B2946D7F60067E199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0F8A2946D7F60067E199 /* AppDelegate.swift */; };
+		262B0F8D2946D7F60067E199 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0F8C2946D7F60067E199 /* SceneDelegate.swift */; };
+		262B0F8F2946D7F60067E199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0F8E2946D7F60067E199 /* ViewController.swift */; };
+		262B0F922946D7F60067E199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262B0F902946D7F60067E199 /* Main.storyboard */; };
+		262B0F942946D81B0067E199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262B0F932946D81B0067E199 /* Assets.xcassets */; };
+		262B0F972946D81B0067E199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262B0F952946D81B0067E199 /* LaunchScreen.storyboard */; };
+		262B0FA22946D81C0067E199 /* Pocket_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0FA12946D81C0067E199 /* Pocket_BookTests.swift */; };
+		262B0FAC2946D81C0067E199 /* Pocket_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0FAB2946D81C0067E199 /* Pocket_BookUITests.swift */; };
+		262B0FAE2946D81C0067E199 /* Pocket_BookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0FAD2946D81C0067E199 /* Pocket_BookUITestsLaunchTests.swift */; };
+		262B0FBD2946DA6D0067E199 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 262B0FBC2946DA4F0067E199 /* libsqlite3.tbd */; };
+		262B0FBF2946DAD90067E199 /* NameCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0FBE2946DAD90067E199 /* NameCardTableViewController.swift */; };
+		262B0FC12946DB630067E199 /* NameCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0FC02946DB630067E199 /* NameCardViewController.swift */; };
+		262B0FC32946DCF30067E199 /* NCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262B0FC22946DCF20067E199 /* NCData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262B0F9E2946D81C0067E199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 262B0F7F2946D7F50067E199 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262B0F862946D7F50067E199;
+			remoteInfo = "Pocket Book";
+		};
+		262B0FA82946D81C0067E199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 262B0F7F2946D7F50067E199 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262B0F862946D7F50067E199;
+			remoteInfo = "Pocket Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262B0F872946D7F50067E199 /* Pocket Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262B0F8A2946D7F60067E199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		262B0F8C2946D7F60067E199 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		262B0F8E2946D7F60067E199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		262B0F912946D7F60067E199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		262B0F932946D81B0067E199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262B0F962946D81B0067E199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		262B0F982946D81B0067E199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262B0F9D2946D81C0067E199 /* Pocket BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262B0FA12946D81C0067E199 /* Pocket_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_BookTests.swift; sourceTree = "<group>"; };
+		262B0FA72946D81C0067E199 /* Pocket BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262B0FAB2946D81C0067E199 /* Pocket_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_BookUITests.swift; sourceTree = "<group>"; };
+		262B0FAD2946D81C0067E199 /* Pocket_BookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_BookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		262B0FBA2946D9EC0067E199 /* NameCard.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = NameCard.db; sourceTree = "<group>"; };
+		262B0FBC2946DA4F0067E199 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		262B0FBE2946DAD90067E199 /* NameCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCardTableViewController.swift; sourceTree = "<group>"; };
+		262B0FC02946DB630067E199 /* NameCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCardViewController.swift; sourceTree = "<group>"; };
+		262B0FC22946DCF20067E199 /* NCData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262B0F842946D7F50067E199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262B0FBD2946DA6D0067E199 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B0F9A2946D81C0067E199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B0FA42946D81C0067E199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262B0F7E2946D7F50067E199 = {
+			isa = PBXGroup;
+			children = (
+				262B0F892946D7F50067E199 /* Pocket Book */,
+				262B0FA02946D81C0067E199 /* Pocket BookTests */,
+				262B0FAA2946D81C0067E199 /* Pocket BookUITests */,
+				262B0F882946D7F50067E199 /* Products */,
+				262B0FBB2946DA4F0067E199 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		262B0F882946D7F50067E199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262B0F872946D7F50067E199 /* Pocket Book.app */,
+				262B0F9D2946D81C0067E199 /* Pocket BookTests.xctest */,
+				262B0FA72946D81C0067E199 /* Pocket BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262B0F892946D7F50067E199 /* Pocket Book */ = {
+			isa = PBXGroup;
+			children = (
+				262B0FBA2946D9EC0067E199 /* NameCard.db */,
+				262B0F8A2946D7F60067E199 /* AppDelegate.swift */,
+				262B0F8C2946D7F60067E199 /* SceneDelegate.swift */,
+				262B0F8E2946D7F60067E199 /* ViewController.swift */,
+				262B0F902946D7F60067E199 /* Main.storyboard */,
+				262B0FC02946DB630067E199 /* NameCardViewController.swift */,
+				262B0FC22946DCF20067E199 /* NCData.swift */,
+				262B0FBE2946DAD90067E199 /* NameCardTableViewController.swift */,
+				262B0F932946D81B0067E199 /* Assets.xcassets */,
+				262B0F952946D81B0067E199 /* LaunchScreen.storyboard */,
+				262B0F982946D81B0067E199 /* Info.plist */,
+			);
+			path = "Pocket Book";
+			sourceTree = "<group>";
+		};
+		262B0FA02946D81C0067E199 /* Pocket BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				262B0FA12946D81C0067E199 /* Pocket_BookTests.swift */,
+			);
+			path = "Pocket BookTests";
+			sourceTree = "<group>";
+		};
+		262B0FAA2946D81C0067E199 /* Pocket BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				262B0FAB2946D81C0067E199 /* Pocket_BookUITests.swift */,
+				262B0FAD2946D81C0067E199 /* Pocket_BookUITestsLaunchTests.swift */,
+			);
+			path = "Pocket BookUITests";
+			sourceTree = "<group>";
+		};
+		262B0FBB2946DA4F0067E199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262B0FBC2946DA4F0067E199 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262B0F862946D7F50067E199 /* Pocket Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262B0FB12946D81C0067E199 /* Build configuration list for PBXNativeTarget "Pocket Book" */;
+			buildPhases = (
+				262B0F832946D7F50067E199 /* Sources */,
+				262B0F842946D7F50067E199 /* Frameworks */,
+				262B0F852946D7F50067E199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Book";
+			productName = "Pocket Book";
+			productReference = 262B0F872946D7F50067E199 /* Pocket Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		262B0F9C2946D81C0067E199 /* Pocket BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262B0FB42946D81C0067E199 /* Build configuration list for PBXNativeTarget "Pocket BookTests" */;
+			buildPhases = (
+				262B0F992946D81C0067E199 /* Sources */,
+				262B0F9A2946D81C0067E199 /* Frameworks */,
+				262B0F9B2946D81C0067E199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262B0F9F2946D81C0067E199 /* PBXTargetDependency */,
+			);
+			name = "Pocket BookTests";
+			productName = "Pocket BookTests";
+			productReference = 262B0F9D2946D81C0067E199 /* Pocket BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		262B0FA62946D81C0067E199 /* Pocket BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262B0FB72946D81C0067E199 /* Build configuration list for PBXNativeTarget "Pocket BookUITests" */;
+			buildPhases = (
+				262B0FA32946D81C0067E199 /* Sources */,
+				262B0FA42946D81C0067E199 /* Frameworks */,
+				262B0FA52946D81C0067E199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262B0FA92946D81C0067E199 /* PBXTargetDependency */,
+			);
+			name = "Pocket BookUITests";
+			productName = "Pocket BookUITests";
+			productReference = 262B0FA72946D81C0067E199 /* Pocket BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		262B0F7F2946D7F50067E199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					262B0F862946D7F50067E199 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					262B0F9C2946D81C0067E199 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 262B0F862946D7F50067E199;
+					};
+					262B0FA62946D81C0067E199 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 262B0F862946D7F50067E199;
+					};
+				};
+			};
+			buildConfigurationList = 262B0F822946D7F50067E199 /* Build configuration list for PBXProject "Pocket Book" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 262B0F7E2946D7F50067E199;
+			productRefGroup = 262B0F882946D7F50067E199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262B0F862946D7F50067E199 /* Pocket Book */,
+				262B0F9C2946D81C0067E199 /* Pocket BookTests */,
+				262B0FA62946D81C0067E199 /* Pocket BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262B0F852946D7F50067E199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262B0F972946D81B0067E199 /* LaunchScreen.storyboard in Resources */,
+				262B0F942946D81B0067E199 /* Assets.xcassets in Resources */,
+				262B0F922946D7F60067E199 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B0F9B2946D81C0067E199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B0FA52946D81C0067E199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262B0F832946D7F50067E199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262B0F8F2946D7F60067E199 /* ViewController.swift in Sources */,
+				262B0F8B2946D7F60067E199 /* AppDelegate.swift in Sources */,
+				262B0FC32946DCF30067E199 /* NCData.swift in Sources */,
+				262B0FBF2946DAD90067E199 /* NameCardTableViewController.swift in Sources */,
+				262B0FC12946DB630067E199 /* NameCardViewController.swift in Sources */,
+				262B0F8D2946D7F60067E199 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B0F992946D81C0067E199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262B0FA22946D81C0067E199 /* Pocket_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262B0FA32946D81C0067E199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262B0FAC2946D81C0067E199 /* Pocket_BookUITests.swift in Sources */,
+				262B0FAE2946D81C0067E199 /* Pocket_BookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		262B0F9F2946D81C0067E199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262B0F862946D7F50067E199 /* Pocket Book */;
+			targetProxy = 262B0F9E2946D81C0067E199 /* PBXContainerItemProxy */;
+		};
+		262B0FA92946D81C0067E199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262B0F862946D7F50067E199 /* Pocket Book */;
+			targetProxy = 262B0FA82946D81C0067E199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		262B0F902946D7F60067E199 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262B0F912946D7F60067E199 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		262B0F952946D81B0067E199 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262B0F962946D81B0067E199 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		262B0FAF2946D81C0067E199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		262B0FB02946D81C0067E199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		262B0FB22946D81C0067E199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket Book/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Pocket-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		262B0FB32946D81C0067E199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket Book/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Pocket-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		262B0FB52946D81C0067E199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Pocket-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Book.app/Pocket Book";
+			};
+			name = Debug;
+		};
+		262B0FB62946D81C0067E199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Pocket-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Book.app/Pocket Book";
+			};
+			name = Release;
+		};
+		262B0FB82946D81C0067E199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Pocket-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Book";
+			};
+			name = Debug;
+		};
+		262B0FB92946D81C0067E199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BU.Pocket-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262B0F822946D7F50067E199 /* Build configuration list for PBXProject "Pocket Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262B0FAF2946D81C0067E199 /* Debug */,
+				262B0FB02946D81C0067E199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262B0FB12946D81C0067E199 /* Build configuration list for PBXNativeTarget "Pocket Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262B0FB22946D81C0067E199 /* Debug */,
+				262B0FB32946D81C0067E199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262B0FB42946D81C0067E199 /* Build configuration list for PBXNativeTarget "Pocket BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262B0FB52946D81C0067E199 /* Debug */,
+				262B0FB62946D81C0067E199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262B0FB72946D81C0067E199 /* Build configuration list for PBXNativeTarget "Pocket BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262B0FB82946D81C0067E199 /* Debug */,
+				262B0FB92946D81C0067E199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 262B0F7F2946D7F50067E199 /* Project object */;
+}
